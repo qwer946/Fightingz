@@ -61,3 +61,7 @@ function animate() {
   enemy.update();
 }
 animate();
+
+window.addEventListener("keydown", (event) => {
+  console.log(event);
+});
